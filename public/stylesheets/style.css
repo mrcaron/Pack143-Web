@@ -1,8 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+	-moz-outline-style: none;
+	outline: none;
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background:  #683b20 url(http://static.tumblr.com/h3aw40n/KGtkopm5f/background.jpg) top left fixed;
+	font-family: Futura, Georgia, Helvetica, Arial, serif;
+	font-size: 13px; 
+	color: #000000;
+}
+
+#container {
+	width: 550px;
+	margin: 0 auto;
+    padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
 }
 
 a {
-  color: #00B7FF;
+	text-decoration: none;
+	color: #FFFFFF;
+} 
+
+a:hover {
+	text-decoration: underline;
 }
+
+/* <---- Firefox Image Border Fix ----> */
+a img, img {
+    border: none;
+}
+
+/* <---- Header ----> */
+#header {
+    text-transform: uppercase;
+	margin: 25px 0 60px 0;
+	padding: 0 0 2px 0;
+}
+
+#header a {
+	color: #000000;
+}
+
+#header h1 {
+	margin: 0px 0px 0px -2px;
+}
+
+#header a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#header {
+    float:right;
+}
+
+#logo {
+    float:left;
+}
+
+/*
+    The style below is very important to
+    keeping this theme looking very clean.
+    I use this style all over this theme
+    to correct floats, of which there 
+    are a few.
+
+    Unless you know what you are doing,
+    do not mess with this style. This 
+    law is given under penalty of death.
+
+*/
+div#clearfix, li#clearfix {
+    clear: both;
+	list-style-type: none;
+	border: none;
+}
+
+/* Blog Title Font Size */
+#header h1 { font-size: 3em; }
+
+/* Background Color & Image */
+body { background:  #683b20 url('http://static.tumblr.com/h3aw40n/KGtkopm5f/background.jpg'); }
+
+/* Twitter Icon (16x16) */
+#twitter_div { background-image: url(http://static.tumblr.com/h3aw40n/giskhqyi3/twitter.png); }
+
+/* Flickr Icon (16x16) */
+#flickr { background-image: url(http://static.tumblr.com/h3aw40n/BRMkhqyh4/flickr.png); }
+
+
+.tag:before, .search_query:before { content:'“'; }
+.tag:after, .search_query:after { content:'”'; }
