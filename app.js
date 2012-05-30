@@ -39,6 +39,10 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
+app.get('/leaders', routes.leaders);
+app.get('/user/:id', function(req, res){
+    res.send('user ' + req.params.id);
+});
 
 app.listen(process.env.PORT, '0.0.0.0', function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);

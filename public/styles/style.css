@@ -4,7 +4,7 @@ h1,h2,h3,h4,h5,h6{font-weight:normal;}
 a{text-decoration:none;color:#00b7ff;}
 a:hover{text-decoration:underline;}
 a img,img{border:none;}
-#header{text-transform:uppercase;margin:25px 0 60px 0;padding:0 0 2px 0;}
+#header{text-transform:uppercase;margin:25px 0 0 0;padding:0 0 2px 0;}
 #header a{color:#000000;}
 #header h1{margin:0px 0px 0px -2px;}
 #header a:hover{text-decoration:none;color:#FFFFFF;}
@@ -17,3 +17,9 @@ body{background:#683b20 url('http://static.tumblr.com/h3aw40n/KGtkopm5f/backgrou
 #flickr{background-image:url(http://static.tumblr.com/h3aw40n/BRMkhqyh4/flickr.png);}
 .tag:before,.search_query:before{content:'“';}
 .tag:after,.search_query:after{content:'”';}
+#signupForm{margin-top:150px;}
+#mc_embed_signup{clear:left;font:14px Helvetica,Arial,sans-serif;}
+#mc_embed_signup .button{background-color:#1c69b1;}
+#mc_embed_signup .asterisk{color:#1c69b1;}
+.footer{text-align:center;}
+.footer img{width:55px;height:55px;}
