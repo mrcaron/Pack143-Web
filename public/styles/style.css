@@ -1,4 +1,4 @@
-body{font-family:Futura, Georgia, Helvetica, Arial, serif;font-size:13px;background:url(http://static.tumblr.com/h3aw40n/KGtkopm5f/background.jpg) top left fixed;color:#000000;}
+body{font-family:"museo-sans",sans-serif;font-size:13px;background:url(http://static.tumblr.com/h3aw40n/KGtkopm5f/background.jpg) top left fixed;color:#000000;}
 #container{width:550px;margin:0 auto;padding-top:50px;}
 h1,h2,h3,h4,h5,h6{font-weight:normal;}
 a{text-decoration:none;color:#00b7ff;}
@@ -18,8 +18,8 @@ body{background:#683b20 url('http://static.tumblr.com/h3aw40n/KGtkopm5f/backgrou
 .tag:before,.search_query:before{content:'“';}
 .tag:after,.search_query:after{content:'”';}
 #signupForm{margin-top:150px;}
-#mc_embed_signup{clear:left;font:14px Helvetica,Arial,sans-serif;}
+#mc_embed_signup{clear:left;font-size:13px;font-family:"museo-sans",sans-serif;}
 #mc_embed_signup .button{background-color:#1c69b1;}
 #mc_embed_signup .asterisk{color:#1c69b1;}
-.footer{text-align:center;}
+.footer{text-align:center;font-family:"museo-sans",sans-serif;}
 .footer img{width:55px;height:55px;}
