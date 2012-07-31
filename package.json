@@ -2,9 +2,13 @@
     "name": "application-name"
   , "version": "0.0.1"
   , "private": true
+  , "engines": {
+      "node": ">= 0.6.0 < 0.7.0"
+  }
   , "dependencies": {
-      "express": "2.5.8"
-    , "jade": ">= 0.0.1"
+      "express": "2.5.10"
+    , "jade": ">= 0.27.0"
     , "less-middleware": "0.1.2"
+    , "connect": ">= 2.0"
   }
 }

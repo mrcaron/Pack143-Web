@@ -3,9 +3,7 @@
  * Module dependencies.
  */
 
-var express = require('express')
-  , routes = require('./routes')
-  , lessMiddleware = require('less-middleware');
+var express = require('express'), routes = require('./routes'), lessMiddleware = require('less-middleware'), connect = require('connect');
 
 var app = module.exports = express.createServer();
 
@@ -24,6 +22,8 @@ app.configure(function(){
       force: true,
       debug:true
   }));
+  
+  app.use(connect.compress());
   
   app.use(express.static(__dirname + '/public'));
 });
@@ -44,6 +44,6 @@ app.get('/user/:id', function(req, res){
     res.send('user ' + req.params.id);
 });
 
-app.listen(process.env.PORT, '0.0.0.0', function(){
+app.listen(process.env.PORT, process.env.IP, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
 });
